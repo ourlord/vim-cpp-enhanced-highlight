@@ -37,7 +37,7 @@ syn match    cCustomClass    "\w\+\s*::" contains=cCustomScope
 hi def link cCustomFunc  Function
 
 " Uncomment this to also highlight 'class::' and 'namespace::'
-"hi def link cCustomClass Function
+hi def link cCustomClass Function
 
 " Alternative syntax that is used in:
 "  http://www.vim.org/scripts/script.php?script_id=3064
@@ -1311,12 +1311,16 @@ endif " C++14
 if !exists("cpp_no_boost")
     "optional is not a part of C++14 anymore
     syntax keyword cppSTLtype optional
+    syntax keyword cppSTLtype shared_ptr
+    syntax keyword cppSTLtype scoped_ptr
+    syntax keyword cppSTLtype intrusive_ptr
     "syntax keyword cppSTLfunction value
     syntax keyword cppSTLfunction value_or
     syntax keyword cppSTLfunction make_optional
 
     syntax keyword cppSTLnamespace boost
     syntax keyword cppSTLcast lexical_cast
+    syntax keyword cppSTLcast reinterpret_cast
 endif " Boost
 
 " Default highlighting
