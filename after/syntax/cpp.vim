@@ -1311,6 +1311,7 @@ endif " C++14
 if !exists("cpp_no_boost")
     "optional is not a part of C++14 anymore
     syntax keyword cppSTLtype optional
+    syntax keyword cppSTLtype shared_array
     syntax keyword cppSTLtype shared_ptr
     syntax keyword cppSTLtype scoped_ptr
     syntax keyword cppSTLtype intrusive_ptr
