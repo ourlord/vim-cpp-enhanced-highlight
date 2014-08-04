@@ -177,7 +177,7 @@ syntax keyword cppSTLfunction copy
 syntax keyword cppSTLfunction copy_backward
 syntax keyword cppSTLfunction cos
 syntax keyword cppSTLfunction cosh
-syntax keyword cppSTLfunction count
+"syntax keyword cppSTLfunction count
 syntax keyword cppSTLfunction count_if
 syntax keyword cppSTLfunction c_str
 syntax keyword cppSTLfunction ctime
