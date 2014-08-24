@@ -1315,6 +1315,7 @@ if !exists("cpp_no_boost")
     syntax keyword cppSTLtype shared_ptr
     syntax keyword cppSTLtype scoped_ptr
     syntax keyword cppSTLtype intrusive_ptr
+    syntax keyword cppSTLtype noncopyable
     "syntax keyword cppSTLfunction value
     syntax keyword cppSTLfunction value_or
     syntax keyword cppSTLfunction make_optional
