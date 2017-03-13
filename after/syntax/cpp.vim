@@ -982,7 +982,6 @@ if !exists("cpp_no_cpp11")
     syntax keyword cppSTLfunction mbrtoc32
     syntax keyword cppSTLfunction c32rtomb
 
-if !exists("cpp_no_boost")
     "optional is not a part of C++14 anymore
     syntax keyword cppSTLtype optional
     syntax keyword cppSTLtype shared_ptr
