@@ -1962,13 +1962,8 @@ endif " C++ concepts
 if !exists("cpp_no_boost")
     syntax keyword cppSTLnamespace boost
     syntax keyword cppSTLcast lexical_cast
-<<<<<<< HEAD
     syntax keyword cppSTLcast reinterpret_cast
 endif " Boost
-=======
-endif " boost
-
->>>>>>> 42e8b05f200a22635ac4774fa6c1efd37b0484d6
 
 " Default highlighting
 if version >= 508 || !exists("did_cpp_syntax_inits")
